@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIResale privacy notice</title>
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; line-height: 1.55; max-width: 42rem; margin: 2rem auto; padding: 0 1.25rem; color: #1c1917; background: #fafaf9; }
+    h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 0.25rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; }
+    p, li { font-size: 1.05rem; }
+    a { color: #1d4ed8; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>AIResale privacy notice</h1>
+    <p>Effective 2 October 2026</p>
+    <p>AIResale is a private resale workspace operated from Surrey, British Columbia. It keeps inventory, prepares listings, and helps the operator answer buyers. This notice explains what information that work uses.</p>
+    <p>This page does not use AIResale tracking or sign-in cookies. GitHub Pages, which hosts this page, may process visitors’ IP addresses and technical request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a>.</p>
+
+    <h2>Information the operator keeps</h2>
+    <p>AIResale stores its records on the operator’s own computer. Those records can include:</p>
+    <ul>
+      <li>Inventory details, asking prices, photographs, and condition notes. A serial number, an original purchase cost, and a private minimum price can be stored for the operator. They are not placed in a public listing or in a routine buyer message.</li>
+      <li>Buyer name, email address, message text, offers, agreed prices, and pickup arrangements, when a person writes about an item.</li>
+      <li>The operator’s own sign-in for AIResale, and encrypted copies of connected-account tokens.</li>
+      <li>An exact pickup address and phone number, only if the operator saves them. Those two values are encrypted. They are sent to a buyer only after the operator approves that specific pickup.</li>
+    </ul>
+    <p>Public listing text uses Surrey, British Columbia, as the location. It does not include the operator’s home address.</p>
+
+    <h2>Gmail</h2>
+    <p>If the operator connects Gmail, AIResale uses Google’s official Gmail interface with permission to read mail and to send mail. It imports recent messages so the operator can see inquiries and continue an existing conversation. A message is not sent until the operator approves that draft. Connecting Gmail does not give AIResale access to the mailbox password.</p>
+    <p>Stored mail can include the sender’s address, the subject, the message, and the time it arrived. Google receives the sign-in and the mail requests required to provide that connection. Google’s own privacy policy applies to Google’s handling of the account.</p>
+    <p>When AI drafting is enabled, an incoming buyer inquiry may be sent to Cloudflare automatically while Gmail is synchronized, so a reply can be drafted. Sending that reply to the buyer still requires the applicable approval.</p>
+
+    <h2>Buyers</h2>
+    <p>Buyer messages are used to identify the item, answer questions, negotiate a price, arrange payment, and arrange pickup or shipping. For a direct sale, payment instructions are sent only when the operator has approved them. For an eBay sale, payment stays on eBay. AIResale does not ask an eBay buyer to pay the operator directly.</p>
+    <p>A proposed pickup time is not confirmed until the operator accepts it. The approximate pickup area may be shared in an ordinary reply. The exact address and phone number are not included unless the operator approves that disclosure for that appointment.</p>
+
+    <h2>eBay</h2>
+    <p>eBay connections use eBay’s official interfaces. Sandbox testing and a future production seller account use separate credentials. Tokens from those connections are encrypted on the operator’s computer.</p>
+    <p>Information sent to eBay for a listing can include the title, description, asking price, category, condition, item specifics, quantity, and photographs the operator chooses. eBay then handles that listing under eBay’s own policies, including checkout and messages on eBay. AIResale does not invent shipping charges, return terms, or payment methods.</p>
+    <p>During local Sandbox testing, eBay may send the browser to a separate HTTPS address that only forwards the sign-in back to the operator’s computer. That address does not store the authorization code. A production connection will use AIResale’s own HTTPS callback instead of that testing bridge.</p>
+
+    <h2>AI processing</h2>
+    <p>When the operator turns it on, AIResale sends limited material to Cloudflare Workers AI:</p>
+    <ul>
+      <li>Reduced copies of equipment photographs, without camera location data, so the operator can identify an item. The original photograph stays on the operator’s computer.</li>
+      <li>When AI drafting is enabled, an incoming buyer inquiry and the public facts needed to draft a reply, such as the item name and the asking price. This can happen automatically during Gmail synchronization. The private minimum, purchase cost, serial number, home address, and private phone number are not included in that request. An outgoing reply is still sent only after the applicable approval.</li>
+      <li>Public inventory facts used to draft a marketplace description. The operator reviews the draft before it is published.</li>
+    </ul>
+    <p>Cloudflare processes those requests to return the draft or identification. Cloudflare’s privacy policy applies to that processing.</p>
+
+    <h2>Photographs and other marketplaces</h2>
+    <p>Listing photographs can be prepared for the operator to upload. Preparation removes camera location data from the copy that is meant to be public. Facebook Marketplace listings are prepared for the operator to copy and submit. AIResale does not post them automatically.</p>
+
+    <h2>Sharing</h2>
+    <p>AIResale does not sell personal information. Information is shared only with the services the operator uses to run the sale: Google for the connected mailbox, eBay for an eBay listing, and Cloudflare for an AI request, including an incoming inquiry when AI drafting is enabled. A buyer receives only the reply, payment instruction, or pickup detail the operator approves.</p>
+
+    <h2>Retention and buyer requests</h2>
+    <p>Imported mail, buyer conversations, inventory records, and listing drafts remain in the operator’s private system while they are needed for a sale, a question, or the inventory record. AIResale does not delete them on a fixed public schedule. Disconnecting Gmail or eBay stops new use of that connection. Copies already stored locally remain until the operator deletes them.</p>
+    <p>A buyer may email <a href="mailto:wortheveryshinypenny@gmail.com">wortheveryshinypenny@gmail.com</a> to request access to, correction of, or deletion of their personal information. The operator will honor that request, subject to applicable legal retention requirements.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this notice can be sent to <a href="mailto:wortheveryshinypenny@gmail.com">wortheveryshinypenny@gmail.com</a>.</p>
+  </main>
+</body>
+</html>
